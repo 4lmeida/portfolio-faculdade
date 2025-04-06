@@ -699,12 +699,14 @@ footer img {
     border: 2px solid #040405; /* Moldura com a cor especificada */
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
   }
   
   .contact-form {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    align-items: center;
   }
   
   .contact-form label {
@@ -740,6 +742,7 @@ footer img {
   
   .contact-form button {
     padding: 10px 20px;
+    min-width: 100px; /* Largura máxima do botão */
     background-color: var(--border-color-blue);
     color: white;
     border: none;
@@ -757,10 +760,6 @@ footer img {
 @media (max-width: 768px) {
     .form-container {
       padding: 25px;
-    }
-
-    .contact-form {
-            
     }
   
     .contact-form input,
